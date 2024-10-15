@@ -1,0 +1,407 @@
+{
+    "root_url": "https://github.com",
+    "max_depth": 2,
+    "crawled_urls": [
+        {
+            "url": "https://github.com",
+            "depth": 0
+        },
+        {
+            "url": "https://github.com#start-of-content",
+            "depth": 1
+        },
+        {
+            "url": "https://githubuniverse.com/?utm_source=github&utm_medium=banner&utm_campaign=24bannerheader10li",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/login",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/copilot",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/security",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/actions",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/codespaces",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/issues",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/code-review",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/discussions",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/code-search",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features",
+            "depth": 2
+        },
+        {
+            "url": "https://docs.github.com",
+            "depth": 2
+        },
+        {
+            "url": "https://skills.github.com",
+            "depth": 2
+        },
+        {
+            "url": "https://github.blog",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/enterprise",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/team",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/enterprise/startups",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/solutions/industries/healthcare",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/solutions/industries/financial-services",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/solutions/industries/manufacturing",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/solutions/ci-cd",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/solutions/devops",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/solutions/devsecops",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/resources/articles/ai",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/resources/articles/devops",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/resources/articles/security",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/resources/articles/software-development",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/resources/articles",
+            "depth": 2
+        },
+        {
+            "url": "https://resources.github.com/learn/pathways",
+            "depth": 2
+        },
+        {
+            "url": "https://resources.github.com",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/customer-stories",
+            "depth": 2
+        },
+        {
+            "url": "https://partner.github.com",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/sponsors",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/readme",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/topics",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/trending",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/collections",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/enterprise/advanced-security",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/copilot#enterprise",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/premium-support",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/pricing",
+            "depth": 2
+        },
+        {
+            "url": "https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/organizations/enterprise_plan?ref_cta=Start+a+free+enterprise+trial&ref_loc=Home+campaign+hero&ref_page=%2F",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com#productivity",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com#security",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com#collaboration",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/organizations/enterprise_plan?ref_cta=Start+a+free+enterprise+trial&ref_loc=homepage+sticky+nav&ref_page=%2F",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/join?ref_cta=Sign+up+for+GitHub&ref_loc=homepage+sticky+nav&ref_page=%2F&source=homepage-sticky-nav",
+            "depth": 2
+        },
+        {
+            "url": "https://resources.github.com/forrester/",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/mobile",
+            "depth": 2
+        },
+        {
+            "url": "https://resources.github.com/security/sast/",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/security/software-supply-chain",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/features/security/code",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/kazupon",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/yyx990803",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/imolorhe",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/directus",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/sindresorhus",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/chaynhq",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/dayhaysoos",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/curl",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/commandpost",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/organizations/enterprise_plan?ref_cta=Start+a+free+enterprise+trial&ref_loc=Home+campaign+footer&ref_page=%2F",
+            "depth": 2
+        },
+        {
+            "url": "https://github.blog/2023-01-25-100-million-developers-and-counting/",
+            "depth": 2
+        },
+        {
+            "url": "https://resources.github.com/newsletter/",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/security",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/github/roadmap",
+            "depth": 2
+        },
+        {
+            "url": "https://resources.github.com/devops/tools/compare",
+            "depth": 2
+        },
+        {
+            "url": "https://docs.github.com/get-started/exploring-integrations/about-building-integrations",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/edu",
+            "depth": 2
+        },
+        {
+            "url": "https://cli.github.com",
+            "depth": 2
+        },
+        {
+            "url": "https://desktop.github.com",
+            "depth": 2
+        },
+        {
+            "url": "https://github.community",
+            "depth": 2
+        },
+        {
+            "url": "https://services.github.com",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/enterprise/premium-support",
+            "depth": 2
+        },
+        {
+            "url": "https://www.githubstatus.com",
+            "depth": 2
+        },
+        {
+            "url": "https://support.github.com?tags=dotcom-footer",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/about",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/customer-stories?type=enterprise",
+            "depth": 2
+        },
+        {
+            "url": "https://github.careers",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/newsroom",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/about/diversity",
+            "depth": 2
+        },
+        {
+            "url": "https://socialimpact.github.com",
+            "depth": 2
+        },
+        {
+            "url": "https://shop.github.com",
+            "depth": 2
+        },
+        {
+            "url": "https://docs.github.com/site-policy/github-terms/github-terms-of-service",
+            "depth": 2
+        },
+        {
+            "url": "https://docs.github.com/site-policy/privacy-policies/github-privacy-statement",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/github/site-policy/pull/582",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/sitemap",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/git-guides",
+            "depth": 2
+        },
+        {
+            "url": "https://x.com/github",
+            "depth": 2
+        },
+        {
+            "url": "https://www.facebook.com/GitHub",
+            "depth": 2
+        },
+        {
+            "url": "https://www.linkedin.com/company/github",
+            "depth": 2
+        },
+        {
+            "url": "https://www.youtube.com/github",
+            "depth": 2
+        },
+        {
+            "url": "https://www.twitch.tv/github",
+            "depth": 2
+        },
+        {
+            "url": "https://www.tiktok.com/@github",
+            "depth": 2
+        },
+        {
+            "url": "https://github.com/github",
+            "depth": 2
+        }
+    ],
+    "total_crawled": 100
+}
