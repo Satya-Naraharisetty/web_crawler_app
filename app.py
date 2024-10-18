@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import json
+import io
 
 
 # Function to call your API for web crawling
@@ -32,27 +33,39 @@ st.title("Web Crawler App")
 root_url = st.text_input("Enter the root URL to crawl", "https://example.com")
 max_depth = st.number_input("Enter the crawl depth", min_value=1, max_value=10, value=2)
 
+# State to store if the file has been downloaded
+if "file_downloaded" not in st.session_state:
+    st.session_state["file_downloaded"] = False
+
 # Button to trigger crawling
 if st.button("Crawl"):
-    with st.spinner('Crawling in progress...'):
-        # Call the API with user inputs
-        result = call_crawler_api(root_url, max_depth)
+    if st.session_state["file_downloaded"]:
+        st.warning("You have already downloaded the file for this session.")
+    else:
+        with st.spinner('Crawling in progress...'):
+            # Call the API with user inputs
+            result = call_crawler_api(root_url, max_depth)
 
-        # Check if there was an error
-        if "error" in result:
-            st.error(result["error"])
-        else:
-            st.success("Crawl successful!")
-            # Display the crawled links
-            st.json(result)
+            # Check if there was an error
+            if "error" in result:
+                st.error(result["error"])
+            else:
+                st.success("Crawl successful!")
+                # Display the crawled links
+                st.json(result)
 
-            # Convert the result to JSON format
-            result_json = json.dumps(result, indent=4)
+                # Convert the result to a bytes stream (so we don't use any disk space)
+                result_bytes = io.BytesIO()
+                result_bytes.write(json.dumps(result, indent=4).encode('utf-8'))
+                result_bytes.seek(0)  # Go back to the start of the stream
 
-            # Provide the result as a downloadable JSON file
-            st.download_button(
-                label="Download Crawled Data as JSON",
-                data=result_json,
-                file_name="crawled_data.json",
-                mime="application/json"
-            )
+                # Provide the result as a downloadable JSON file
+                st.download_button(
+                    label="Download Crawled Data as JSON",
+                    data=result_bytes,
+                    file_name="crawled_data.json",
+                    mime="application/json"
+                )
+
+                # Mark the file as downloaded so user cannot download it again in this session
+                st.session_state["file_downloaded"] = True
