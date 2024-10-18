@@ -1,3 +1,5 @@
+from typing import TextIO
+
 from flask import Blueprint, request, jsonify
 from crawler import crawl_page
 import os
